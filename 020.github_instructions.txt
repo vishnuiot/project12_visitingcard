@@ -1,4 +1,5 @@
 rm -rf .git*
+git rm -r --cached .
 git init
 git branch -m main  # rename local brach to remote or any other name_ like master
 git add .
