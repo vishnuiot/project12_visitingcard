@@ -3,7 +3,10 @@ git init
 git branch -m main  # rename local brach to remote or any other name_ like master
 git add .
 git commit -m "Git commit history created"
-
+git remote add origin https://github.com/vishnuiot/project12_visitingcard.git
+git pull origin main --allow-unrelated-histories
+git pull https://github.com/vishnuiot/project12_visitingcard.git
+git push https://github.com/vishnuiot/project12_visitingcard.git
 
 git log --graph --oneline --decorate --all
 
@@ -11,9 +14,6 @@ git log --graph --oneline --decorate --all
 
 git config --list
 
-git add .
-git commit -m "modification"
-git remote add origin git@github.com:vishnuiot/project12_visitingcard
 
 
 git clone https://github.com/vishnuiot/project12_visitingcard.git
