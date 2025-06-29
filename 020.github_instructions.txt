@@ -5,8 +5,9 @@ git branch -m main  # rename local brach to remote or any other name_ like maste
 git add .
 git commit -m "Git commit history created"
 git remote add origin https://github.com/vishnuiot/project12_visitingcard.git
-git pull origin main --allow-unrelated-histories
 git config pull.rebase false
+
+git pull origin main --allow-unrelated-histories
 git pull https://github.com/vishnuiot/project12_visitingcard.git
 git push https://github.com/vishnuiot/project12_visitingcard.git
 
