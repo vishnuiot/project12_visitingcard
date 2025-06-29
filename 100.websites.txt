@@ -1,0 +1,7 @@
+https://en.wikipedia.org/wiki/VCard
+https://www.youtube.com/watch?v=DI2ijG5c9fo
+https://ffaheroes.medium.com/building-your-own-business-card-with-python-56a446745019
+
+https://github.com/rclement/business-card-generator
+
+

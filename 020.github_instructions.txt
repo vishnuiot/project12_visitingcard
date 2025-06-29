@@ -1,0 +1,47 @@
+rm -rf .git*
+git init
+git branch -m main  # rename local brach to remote or any other name_ like master
+git add .
+git commit -m "Git commit history created"
+
+
+    git log --graph --oneline --decorate --all
+
+
+
+git config --list
+
+git add .
+git commit -m "modification"
+git remote add origin git@github.com:vishnuiot/project12_visitingcard
+
+
+git clone https://github.com/vishnuiot/project12_visitingcard.git
+git remote add origin https://github.com/vishnuiot/project12_visitingcard.git
+
+git remote set-url origin git@github.com:vishnuiot/project12_visitingcard.git
+git remote -v
+
+git commit -m "initial commit"
+git push origin main
+
+# Check your current branch
+git branch
+
+# If your branch is 'master', use 'master' instead of 'main' in push commands
+
+# Stage all changes
+git add .
+
+# Commit your changes
+git commit -m "modification"
+
+# Add the remote only if it doesn't already exist
+git remote add origin git@github.com:vishnuiot/project12_visitingcard.git
+
+# Verify the remote URL
+git remote -v
+
+# Push to the correct branch (replace 'main' with your branch name if needed)
+git push origin main
+
