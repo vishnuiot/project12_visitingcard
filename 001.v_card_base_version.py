@@ -8,7 +8,8 @@ vcard.add("version").value = "4.0"
 vcard.add("fn").value = "John Doe"  # Full name
 vcard.add("tel").value = "+1234567890"  # Telephone number
 vcard.add("email").value = "john@gmail.com" # Email address
-
+vcard.add('title') # Job Title
+vcard.title.value = 'Software Engineer'
 
 
 serilized_vcard = vcard.serialize()
